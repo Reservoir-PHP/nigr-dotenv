@@ -1,0 +1,20 @@
+{
+    "name": "nigr/dotenv",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Nigr\\Dotenv\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vladimir Nikitin",
+            "email": "vreservoirv@rambler.ru"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^10.5"
+    }
+}
