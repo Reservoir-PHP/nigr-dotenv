@@ -6,7 +6,7 @@ use RuntimeException;
 
 class Dotenv
 {
-	public function envParse(string $filePath = '.env'): void
+	public function parse(string $filePath = '.env'): void
 	{
 		if (!file_exists($filePath)) throw new RuntimeException("Файл $filePath не найден");
 
