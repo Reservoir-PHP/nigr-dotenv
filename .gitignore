@@ -6,3 +6,5 @@ vendor
 index.php
 .htaccess
 composer.lock
+tests/info
+.env
